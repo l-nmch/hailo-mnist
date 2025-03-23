@@ -21,8 +21,8 @@ This repository provides a guide to training and running a TensorFlow-based MNIS
 To get started, clone this repository :
 
 ```sh
-git clone https://github.com/l-nmch/mnist-hailo8l.git
-cd mnist-hailo8l
+git clone https://github.com/l-nmch/hailo-mnist.git
+cd hailo-mnist
 ```
 
 Create a virtualenv :
