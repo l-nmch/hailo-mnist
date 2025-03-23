@@ -1,0 +1,9 @@
+.venv
+*.keras
+*.onnx
+export/
+.install_logs/
+*.log
+*.har
+*.hef
+*.tflite
