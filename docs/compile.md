@@ -60,7 +60,7 @@ This command will parse the mnist.tflite model and prepare it for optimization.
 To optimize the model you need to give hailo a prepation set:
 
 ```sh
-python3 src/calibration_set.py --image_folder images/ --ouput calib_set.npy
+python3 src/calibration_set.py --image_folder images/ --output calib_set.npy
 ```
 
 3. Optimize the Model
@@ -88,7 +88,7 @@ The output of this command will be the mnist.hef file, which is ready to run on 
 After following the official installation [Documentation](https://www.raspberrypi.com/documentation/computers/ai.html) and compiled the model, you can predict images on the NPU:
 
 ```sh
-python3 src/predict_hailo.py --model mnist_optimized.hef --input_file images/0.png
+python3 src/predict_hailo.py --model mnist.hef --input_file images/0.png
 ```
 
 ## Notes

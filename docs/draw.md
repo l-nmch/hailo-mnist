@@ -35,5 +35,5 @@ Save the drawn image to a file, e.g., `drawn_digit.png`.
 Use the saved image as input for the `predict.py` script:
 
 ```sh
-python3 predict.py --model mnist_model.keras --input_file drawn_digit.png
+python3 predict.py --model ../mnist_model.keras --input_file drawn_digit.png
 ```
